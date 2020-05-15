@@ -11,7 +11,7 @@ allocs/op < 12506
 ### Снятие тестов
 
 ```
-go test -bench . -benchmem -cpuprofile cpu.out -memprofile mem.out -memprofilerate=1 main_test.go fast.go common.go fast_easyjson.go
+go test -bench . -benchmem -cpuprofile=cpu.out -memprofile=mem.out -memprofilerate=1
 ```
 
 Исследование Оперативной памяти
